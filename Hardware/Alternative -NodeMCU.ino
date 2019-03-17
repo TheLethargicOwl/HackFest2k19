@@ -50,7 +50,6 @@ Serial.println("");
   //GET Data
  int otpp=random(1000,9999);
   String otp=String(otpp);
-  vol=0.20;
   String volu=String(vol);
   String mass=String(vol*50);
   getData = "?otp="+otp+"&volume="+volu+"&mass="+mass ;  //Note "?" added at front
